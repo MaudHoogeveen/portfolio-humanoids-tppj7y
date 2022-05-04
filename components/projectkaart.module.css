@@ -1,0 +1,44 @@
+.container {
+  width: 45%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container:hover {
+  text-decoration: none;
+}
+
+.container:hover .titel {
+  text-decoration: underline;
+}
+
+.plaatjecontainer {
+  display: flex;
+  flex: 0.6;
+  background: rgb(245, 245, 245);
+  justify-content: center;
+  height: 300px;
+}
+.plaatjecontainer * {
+  margin-top: auto;
+  overflow: hidden;
+}
+
+.titel {
+  margin-top: 1rem;
+}
+
+.beschrijving {
+  opacity: 0.5;
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 540px) {
+  .content {
+    width: calc(50% + 1.6rem);
+  }
+
+  .plaatje {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  padding: 1.5rem;
+  margin-bottom: 128px;
+}
+
+.container a {
+  color: var(--kleur-primair);
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+
+.container a:visited {
+  color: var(--kleur-primair);
+}
+
+.items {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto;
+  width: fit-content;
+  cursor: pointer;
+}

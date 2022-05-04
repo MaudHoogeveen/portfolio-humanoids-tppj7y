@@ -1,0 +1,21 @@
+.footer {
+  margin: 128px 0 16px;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 540px) {
+  .footer {
+    text-align: left;
+  }
+}
+
+.hr {
+  border: 1px solid var(--kleur-vervaagd);
+  border-top: none;
+  opacity: 0.3;
+}
+
+.hr + p {
+  margin-top: 1rem;
+}

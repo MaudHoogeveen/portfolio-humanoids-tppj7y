@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.content > p {
+  margin-top: 32px;
+}
+
+.plaatje {
+  display: flex;
+  flex: 0.6;
+  justify-content: center;
+  margin: 32px auto 0;
+}
+
+@media (min-width: 540px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: calc(50% + 1.6rem);
+  }
+
+  .plaatje {
+    margin: 0 auto;
+  }
+}
